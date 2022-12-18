@@ -3,23 +3,27 @@ export const listadoDatos=
         {
             name:'Estadia',
             requerido:false,
-            valorIndividual:''
+            valorIndividual:'',
+            pagado:false
 
         },
         {
             name:'Comida',
             requerido:false,
-            valorIndividual:''
+            valorIndividual:'',
+            pagado:false
         },
         {
             name:'Entradas Parques',
             requerido:false,
-            valorIndividual:''
+            valorIndividual:'',
+            pagado:false
         },
         {
             name:'Pasajes',
             requerido:false,
-            valorIndividual:''
+            valorIndividual:'',
+            pagado:false
         },
     ];
 

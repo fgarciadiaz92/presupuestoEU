@@ -1,8 +1,8 @@
 <script>
 import {listadoCanales} from "./datos.js";
 
-
-function cambiarEstado(){
+let listadoCanal=null
+function cambiarEstado(estado){
     const toastTrigger = document.getElementById('liveToastBtn')
     const toastLiveExample = document.getElementById('liveToast')
     if (toastTrigger) {
@@ -12,6 +12,7 @@ function cambiarEstado(){
             toast.show()
         })
     }
+    console.log(estado)
 }
 </script>
 <main>
